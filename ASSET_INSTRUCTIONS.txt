@@ -1,0 +1,30 @@
+# Asset Placement Instructions
+
+Please place your files in the following folders. I have created these folders for you in `e:\Temp\BirthdayWish\public\assets`.
+
+## Images
+- **Hero/Intro**:
+  - `loading.jpg`: The image for the initial 3-second loading screen.
+  - `hero.jpg`: The hero/intro picture for the first dialogue.
+  - `C1.jpg`: The left image for the second dialogue.
+  - `C2.jpg`: The right image for the second dialogue.
+- **Gallery**: Place `pic1.jpg` to `pic6.jpg` in `public/assets/images/gallery`.
+- **Documents**: 
+  - `l2.jpeg`: The image for the second letter page.
+
+## Videos
+- **Dance**: Place your **4 dance videos** in `public/assets/videos/dance`:
+  - `dance1.mp4`
+  - `dance2.mp4`
+  - `dance3.mp4`
+  - `dance4.mp4`
+- **Friends**: Place the video named **`spl1.mp4`** in `public/assets/videos/friends`.
+
+## Documents
+- **Story**: Place `Janma.pdf` in `public/assets/documents/`.
+- **Letters**: Place `Letter.pdf` in `public/assets/documents/`.
+
+---
+**Note**: You can edit the text of the letters directly in the code:
+- First Letter: `src/components/Letter1.jsx`
+- Second Letter/Story: `src/components/Story.jsx`
