@@ -20,7 +20,7 @@ const Loading = () => {
                 {/* Center Image */}
                 <div className="absolute inset-2 rounded-full overflow-hidden border-2 border-white/10">
                     <img
-                        src="/assets/images/hero/loading.jpg"
+                        src="assets/images/hero/loading.jpg"
                         alt="Loading..."
                         className="w-full h-full object-cover"
                         onError={(e) => { e.target.src = "https://placehold.co/400x400/101010/FFF?text=Loading..."; }}

@@ -29,7 +29,7 @@ const Dialogue = ({ phase }) => {
                         // Phase 1: Single Hero Image (hero)
                         <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(139,92,246,0.3)] border border-white/10">
                             <img
-                                src="/assets/images/hero/hero.jpg"
+                                src="assets/images/hero/hero.jpg"
                                 alt="Hero"
                                 className="w-full h-full object-cover"
                                 onError={(e) => { e.target.src = "https://placehold.co/400x400/202020/FFF?text=Hero"; }}
@@ -45,7 +45,7 @@ const Dialogue = ({ phase }) => {
                                 className="relative w-48 h-48 md:w-64 md:h-64 rounded-xl overflow-hidden shadow-lg border border-white/10"
                             >
                                 <img
-                                    src="/assets/images/hero/C1.jpg"
+                                    src="assets/images/hero/C1.jpg"
                                     alt="Scene 1"
                                     className="w-full h-full object-cover"
                                     onError={(e) => { e.target.src = "https://placehold.co/400x400/202020/FFF?text=C1"; }}
@@ -58,7 +58,7 @@ const Dialogue = ({ phase }) => {
                                 className="relative w-48 h-48 md:w-64 md:h-64 rounded-xl overflow-hidden shadow-lg border border-white/10"
                             >
                                 <img
-                                    src="/assets/images/hero/C2.jpg"
+                                    src="assets/images/hero/C2.jpg"
                                     alt="Scene 2"
                                     className="w-full h-full object-cover"
                                     onError={(e) => { e.target.src = "https://placehold.co/400x400/202020/FFF?text=C2"; }}

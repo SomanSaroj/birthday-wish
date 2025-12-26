@@ -14,7 +14,7 @@ const Story = () => {
             <div className="flex-1 max-w-md w-full bg-[#fffcf5] text-slate-800 p-2 rounded-lg shadow-2xl relative overflow-hidden flex items-center justify-center">
                 <div className="absolute inset-0 opacity-10 pointer-events-none bg-[linear-gradient(rgba(0,0,0,0.1)_1px,transparent_1px)] bg-[size:100%_2rem]"></div>
                 <img
-                    src="/assets/documents/l2.jpeg"
+                    src="assets/documents/l2.jpeg"
                     alt="Letter 2"
                     className="w-full h-full object-contain max-h-[60vh]"
                     onError={(e) => { e.target.src = "https://placehold.co/400x500?text=Letter+2"; }}
@@ -29,7 +29,7 @@ const Story = () => {
 
                 <div className="flex flex-col gap-4 w-full">
                     <a
-                        href="/assets/documents/Letter.pdf"
+                        href="assets/documents/Letter.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-8 py-3 bg-white hover:bg-gray-200 text-purple-900 font-bold rounded-full transition-all shadow-lg flex items-center justify-center gap-2"
@@ -38,7 +38,7 @@ const Story = () => {
                     </a>
 
                     <a
-                        href="/assets/documents/Janma.pdf"
+                        href="assets/documents/Janma.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-8 py-3 bg-purple-600 hover:bg-purple-500 text-white rounded-full transition-all shadow-lg hover:shadow-purple-500/50 flex items-center justify-center gap-2"

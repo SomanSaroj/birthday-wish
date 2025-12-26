@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 
 const images = [
-    { id: 1, src: "/assets/images/gallery/pic1.jpg" },
-    { id: 2, src: "/assets/images/gallery/pic2.jpg" },
-    { id: 3, src: "/assets/images/gallery/pic3.jpg" },
-    { id: 4, src: "/assets/images/gallery/pic4.jpg" },
-    { id: 5, src: "/assets/images/gallery/pic5.jpg" },
-    { id: 6, src: "/assets/images/gallery/pic6.jpg" },
+    { id: 1, src: "assets/images/gallery/pic1.jpg" },
+    { id: 2, src: "assets/images/gallery/pic2.jpg" },
+    { id: 3, src: "assets/images/gallery/pic3.jpg" },
+    { id: 4, src: "assets/images/gallery/pic4.jpg" },
+    { id: 5, src: "assets/images/gallery/pic5.jpg" },
+    { id: 6, src: "assets/images/gallery/pic6.jpg" },
 ];
 
 const Gallery = () => {
