@@ -3,7 +3,6 @@ import { AnimatePresence } from 'framer-motion';
 import Loading from './components/Loading';
 import Dialogue from './components/Dialogue';
 import Gallery from './components/Gallery';
-import Dance from './components/Dance';
 import Story from './components/Story';
 import FriendsVideo from './components/FriendsVideo';
 import Finale from './components/Finale';
@@ -14,7 +13,6 @@ const pages = [
     'dialogue_intro',
     'dialogue_extended',
     'gallery',
-    'dance',
     'story',
     'friends_video',
     'finale'
@@ -81,10 +79,6 @@ function App() {
 
                     {currentPage === 'gallery' && (
                         <Gallery key="gallery" />
-                    )}
-
-                    {currentPage === 'dance' && (
-                        <Dance key="dance" />
                     )}
 
                     {currentPage === 'story' && (
